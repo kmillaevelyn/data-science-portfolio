@@ -9,18 +9,18 @@ Transformar um dataset bruto em uma ferramenta de exploração visual: filtros i
 ## O que o projeto cobre
 
 - Limpeza e preparação dos dados com pandas
-- - Construção de KPIs e visualizações com Plotly
-  - - Interface interativa com Streamlit (filtros, abas e métricas)
-    - - Leitura analítica dos padrões encontrados
-     
-      - ## Tecnologias
-     
-      - `Python` · `Streamlit` · `Plotly` · `pandas`
-     
-      - ## Status
-     
-      - 📓 Notebook em publicação — o arquivo `.ipynb` será adicionado a esta pasta em seguida.
-     
-      - ---
+- Construção de KPIs e visualizações com Plotly
+- Interface interativa com Streamlit (filtros, abas e métricas)
+- Leitura analítica dos padrões encontrados
 
-      *Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
+## Tecnologias
+
+`Python` · `Streamlit` · `Plotly` · `pandas`
+
+## Status
+
+📓 Notebook em publicação — o arquivo `.ipynb` será adicionado a esta pasta em seguida.
+
+---
+
+*Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
