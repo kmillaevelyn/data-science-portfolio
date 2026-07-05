@@ -9,18 +9,18 @@ Demonstrar a compreensão dos mecanismos internos do KNN — cálculo de distân
 ## O que o notebook cobre
 
 - Implementação manual da distância euclidiana e da lógica de classificação
-- - Validação cruzada k-fold para avaliar a estabilidade do modelo
-  - - Comparação de desempenho entre diferentes valores de k
-    - - Comparação do resultado com a implementação de referência do scikit-learn
-     
-      - ## Tecnologias
-     
-      - `Python` · `NumPy` · `pandas` · `Matplotlib` · `scikit-learn (benchmark)`
-     
-      - ## Status
-     
-      - 📓 Notebook em publicação — o arquivo `.ipynb` será adicionado a esta pasta em seguida.
-     
-      - ---
+- Validação cruzada k-fold para avaliar a estabilidade do modelo
+- Comparação de desempenho entre diferentes valores de k
+- Comparação do resultado com a implementação de referência do scikit-learn
 
-      *Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
+## Tecnologias
+
+`Python` · `NumPy` · `pandas` · `Matplotlib` · `scikit-learn (benchmark)`
+
+## Status
+
+📓 Notebook em publicação — o arquivo `.ipynb` será adicionado a esta pasta em seguida.
+
+---
+
+*Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
