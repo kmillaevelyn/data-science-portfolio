@@ -1,45 +1,51 @@
-# Data Science Portfolio · Kamilla de Paula
+# Data Science Portfolio — Kamilla Evelyn
 
-Repositório central dos meus projetos de **Dados, Machine Learning e IA Aplicada**, desenvolvidos ao longo do Bacharelado em Ciência e Tecnologia (UNIFEI) e de estudos independentes — com base de domínio real em **Supply Chain e PCM** na indústria.
+Projetos de Machine Learning, NLP, visualização de dados e engenharia — construídos na interseção entre **Supply Chain** e **dados aplicados**. Cada notebook resolve algo real.
 
-Cada projeto resolve um problema real: da classificação de imagens térmicas de motores industriais à análise de sentimento em reviews de e-commerce.
+> 6+ anos em compras estratégicas e planejamento industrial · BCTec UNIFEI · [kmillaevelyn.github.io](https://kmillaevelyn.github.io)
 
-## Trajetória
+## 01 · Machine Learning
 
-| Período | Marco | Projeto |
-|---|---|---|
-| 2024 | Primeiros passos em Python | [`03-fundamentos`](./03-fundamentos) |
-| 2025 | Dashboards interativos e análise de dados | [`dashboard-mercado-vagas-linkedin`](./02-dashboards-visualizacao/dashboard-mercado-vagas-linkedin) · [`dashboard-saude-academica`](./02-dashboards-visualizacao/dashboard-saude-academica) |
-| 2026 | Machine Learning e NLP aplicados | [`classificacao-acoes-petr4-knn`](./01-machine-learning/classificacao-acoes-petr4-knn) · [`knn-do-zero-validacao-cruzada`](./01-machine-learning/knn-do-zero-validacao-cruzada) · [`classificacao-termica-motores-pi5`](./01-machine-learning/classificacao-termica-motores-pi5) · [`analise-sentimento-b2w`](./01-machine-learning/analise-sentimento-b2w) |
+| Projeto | Destaque |
+|---|---|
+| [KNN do Zero + Validação Cruzada](./01-machine-learning/knn-do-zero-validacao-cruzada/) | Implementação 100% NumPy, sem scikit-learn · **99,12% no EMNIST** |
+| [Classificação PETR4 · KNN](./01-machine-learning/classificacao-acoes-petr4-knn/) | Dados reais da B3 via yfinance + painel interativo em ipywidgets |
+| [Classificação Térmica de Motores · PI5](./01-machine-learning/classificacao-termica-motores-pi5/) | Imagens térmicas de motores · comparação de 5 modelos |
 
-## Projetos em destaque
+## 02 · Dashboards & Visualização
 
-### 🧠 Machine Learning & NLP
-- **[Análise de Sentimento B2W/Americanas](./01-machine-learning/analise-sentimento-b2w)**: NLP em PT-BR sobre reviews reais de e-commerce — ML supervisionado com **89,90% de acurácia** vs. 72,07% da baseline léxica.
-- **[KNN do zero + Validação Cruzada](./01-machine-learning/knn-do-zero-validacao-cruzada)**: implementação 100% NumPy do KNN, validação cruzada 3-fold e matriz de confusão nativas. Acurácia de 99,12% no EMNIST filtrado.
-- **[Ensemble de Classificadores](./01-machine-learning/ensemble-classificadores)**: benchmark de 5 algoritmos (KNN, Árvore, Random Forest, SVM Linear e Polinomial) com GridSearchCV e voto majoritário.
-- **[Classificação de Tendências PETR4 (B3)](./01-machine-learning/classificacao-acoes-petr4-knn)**: KNN sobre dados reais via yfinance, com StandardScaler e painel ipywidgets.
-- **[Classificação Térmica de Motores (PI5)](./01-machine-learning/classificacao-termica-motores-pi5)**: visão computacional aplicada à manutenção preditiva na Indústria 4.0.
+| Projeto | Destaque |
+|---|---|
+| [Dashboard · Impacto da IA em Estudantes](./02-dashboards-visualizacao/dashboard-impacto-ia-estudantes/) | Streamlit + Plotly com deploy via túnel Cloudflare |
+| [Clustering de Notícias](./02-dashboards-visualizacao/analise-grafos-clustering/) | TF-IDF + K-Means · validação por Cotovelo e Silhouette Score |
 
-### 📊 Dashboards & Visualização
-- **[Impacto da IA em Estudantes](./02-dashboards-visualizacao/dashboard-impacto-ia-estudantes)**: Streamlit + Plotly com deploy via Cloudflare Tunnel.
-- **[Mercado de Vagas de Tecnologia](./02-dashboards-visualizacao/dashboard-mercado-vagas-linkedin)**: mineração de texto sobre vagas do LinkedIn.
-- **[Hábitos de Estudo e Saúde Acadêmica](./02-dashboards-visualizacao/dashboard-saude-academica)**: análise exploratória interativa de 31 variáveis.
-- **[Análise de Grafos & Clustering](./02-dashboards-visualizacao/analise-grafos-clustering)**: NetworkX + clustering hierárquico (SciPy).
+## 03 · NLP
 
-### 🏭 Engenharia de Produto
-- **[Hidrotech](./04-engenharia-de-produto/hidrotech)**: desenvolvimento de produto IoT (ducha inteligente) com especificações de fabricação e **simulador de viabilidade econômica** (economia ~R$ 20/mês, payback ~44 meses).
+| Projeto | Destaque |
+|---|---|
+| [Análise de Sentimento · B2W](./03-nlp/analise-sentimento-b2w/) | 10.000 avaliações reais da B2W/Americanas · **89,9% de acurácia** |
 
-### 🚚 Supply Chain & PCM
-- **[Compras Estratégicas e Planejamento](./05-supply-chain-pcm)**: framework de compras hospitalares e industriais com resultados anonimizados — **25–30% de redução de custo em EPIs** e **12% em materiais de limpeza**.
+## 04 · Engenharia de Produto
+
+| Projeto | Destaque |
+|---|---|
+| [Hidrotech — Coluna de Ducha Inteligente](./04-engenharia-de-produto/hidrotech/) | PDP do início ao fim: Design Thinking → DFMEA → DFMA → especificação fabril |
+
+## 05 · Supply Chain & PCM
+
+| Projeto | Destaque |
+|---|---|
+| [Compras Estratégicas — Resultados na Indústria](./05-supply-chain-pcm/) | Cases reais e nominais com reduções de **10% a 55%** em custos |
 
 ## Stack
 
-`Python` `NumPy` `Pandas` `scikit-learn` `spaCy` `Streamlit` `Plotly` `Matplotlib` `Seaborn` `ipywidgets` `NetworkX` `SciPy` `yfinance`
+`Python` · `NumPy` · `pandas` · `scikit-learn` · `Streamlit` · `Plotly` · `NLTK` · `spaCy` · `Matplotlib` · `Colab`
 
-## Sobre mim
+## Contato
 
-Assistente de Planejamento (PCM) na indústria e estudante de BCTec na UNIFEI, unindo Supply Chain, dados e IA aplicada.
+[Portfólio](https://kmillaevelyn.github.io) · [LinkedIn](https://www.linkedin.com/in/kmillaevelyn/) · kmillaevelyn@gmail.com
 
-- Portfólio: [kmillaevelyn.github.io](https://kmillaevelyn.github.io)
-- LinkedIn: [linkedin.com/in/kmillaevelyn](https://www.linkedin.com/in/kmillaevelyn/)
+---
+
+<div align="center"><sub>◆ &nbsp; hallownest &nbsp; ◆</sub></div>
+
