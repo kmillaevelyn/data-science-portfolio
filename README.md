@@ -18,6 +18,9 @@ Projetos de Machine Learning, NLP, visualização de dados e engenharia — cons
 |---|---|
 | [Dashboard · Impacto da IA em Estudantes](./02-dashboards-visualizacao/dashboard-impacto-ia-estudantes/) | Streamlit + Plotly com deploy via túnel Cloudflare |
 | [Clustering de Notícias](./02-dashboards-visualizacao/analise-grafos-clustering/) | TF-IDF + K-Means · validação por Cotovelo e Silhouette Score |
+| [Dashboard · Mercado de Vagas LinkedIn · PI3](./02-dashboards-visualizacao/dashboard-mercado-vagas-linkedin/) | Mineração de vagas: hard skills, soft skills e ferramentas mais pedidas |
+| [Dashboard · Saúde Acadêmica](./02-dashboards-visualizacao/dashboard-saude-academica/) | Horas de estudo × nota, ansiedade em provas, sono e extracurriculares |
+| [Dashboard · Hábitos de Estudantes](./02-dashboards-visualizacao/dashboard-habitos-estudantes/) | EDA interativa com seleção dinâmica de variáveis |
 
 ## 03 · NLP
 
@@ -36,6 +39,21 @@ Projetos de Machine Learning, NLP, visualização de dados e engenharia — cons
 | Projeto | Destaque |
 |---|---|
 | [Compras Estratégicas — Resultados na Indústria](./05-supply-chain-pcm/) | Cases reais e nominais com reduções de **10% a 55%** em custos |
+
+## 06 · Algoritmos do Zero
+
+Implementações sem scikit-learn — só NumPy, estruturas de dados e a matemática por trás do método.
+
+| Projeto | Destaque |
+|---|---|
+| [Busca UCS · BFS · DFS](./06-algoritmos-do-zero/busca-ucs-bfs-dfs-romenia/) | Três estratégias no mapa clássico da Romênia · heapq, deque e pilha |
+| [Regressão Linear · Pouso Alegre](./06-algoritmos-do-zero/regressao-linear-populacao-pouso-alegre/) | Mínimos quadrados na mão sobre a população da minha cidade |
+
+## 07 · Fundamentos
+
+| Projeto | Destaque |
+|---|---|
+| [Primeiros Passos em Python](./07-fundamentos/) | Onde tudo começou, em 2024 — preservado como registro da trajetória |
 
 ## Stack
 
