@@ -55,6 +55,24 @@ Implementações sem scikit-learn — só NumPy, estruturas de dados e a matemá
 |---|---|
 | [Primeiros Passos em Python](./07-fundamentos/) | Onde tudo começou, em 2024 — preservado como registro da trajetória |
 
+## 08 · Acadêmico
+
+A base interdisciplinar do BCTec em código: cálculo numérico, bancos de dados, elétricas, física e química.
+
+| Projeto | Destaque |
+|---|---|
+| [Cálculo Numérico · Raízes, Sistemas e Integração](./08-academico/calcnum-raizes-sistemas-integracao/) | Newton-Raphson, bisseção, Jacobi vs. Seidel, trapézios vs. Simpson |
+| [RK4 vs. Euler + Sistemas Elétricos](./08-academico/calcnum-rk4-euler-eletricas/) | EDOs numéricas e diagramas de fluxo de potência (BCTEC022) |
+| [Bancos de Dados · IDEB](./08-academico/bd-consultas-sql-ideb/) | 12 consultas SQL: filtros, agregações e subqueries |
+| [MySQL · Campeonato](./08-academico/bd-mysql-campeonato/) | Modelagem com FK: partidas + estatísticas por intervalo |
+| [Ciências Elétricas](./08-academico/ciencias-eletricas/) | Circuitos, Lei de Ohm e potencial elétrico |
+| [Física · Mecânica](./08-academico/fisica-mecanica/) | Estática: corpo livre, cabos, apoios e momento |
+| [Física · Motor a Gasolina](./08-academico/fisica-m4p1-motor-gasolina/) | Coeficiente politrópico por busca aleatória convergente |
+| [Física · Arrasto Aerodinâmico](./08-academico/fisica-m4p2-onibus-arrasto/) | Potências combinadas e consumo de um double-decker |
+| [Química · Curva FAAS](./08-academico/quimica-curva-calibracao-faas/) | Calibração para determinação de ferro: regressão e R² |
+| [Exercícios de IA](./08-academico/exercicios-ia/) | Busca em grafos, separadores e agrupamento hierárquico |
+| [Parábolas Interativas](./08-academico/graficos-parabolas-interativo/) | Plotagem de famílias de curvas com entrada de coeficientes |
+
 ## Stack
 
 `Python` · `NumPy` · `pandas` · `scikit-learn` · `Streamlit` · `Plotly` · `NLTK` · `spaCy` · `Matplotlib` · `Colab`
