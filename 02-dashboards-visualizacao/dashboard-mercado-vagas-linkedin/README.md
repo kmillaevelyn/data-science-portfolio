@@ -24,29 +24,3 @@ Responder com dados à pergunta que todo estudante da área se faz: o que o merc
 ---
 
 *Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
-# Dashboard — Mercado de Vagas de Tecnologia (LinkedIn)
-
-Análise do mercado de trabalho em tecnologia a partir de vagas coletadas do LinkedIn, com **mineração de texto** para extrair habilidades, senioridades e padrões de demanda.
-
-## Objetivo
-
-Responder com dados à pergunta que todo estudante da área se faz: o que o mercado realmente pede? O projeto transforma descrições de vagas em indicadores visuais de competências mais demandadas.
-
-## O que o projeto cobre
-
-- Limpeza e estruturação de dados textuais de vagas
-- Mineração de texto: extração de skills e termos recorrentes
-- Visualizações interativas de demanda por tecnologia e senioridade
-- Dashboard interativo para exploração dos resultados
-
-## Tecnologias
-
-`Python` · `pandas` · `Plotly` · `Streamlit`
-
-## Status
-
-📓 Notebook em publicação — o arquivo `.ipynb` será adicionado a esta pasta em seguida.
-
----
-
-*Parte do portfólio de Data Science de [Kamilla Evelyn](https://kmillaevelyn.github.io).*
