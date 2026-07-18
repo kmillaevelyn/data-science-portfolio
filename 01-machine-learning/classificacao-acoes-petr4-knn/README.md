@@ -5,4 +5,4 @@ Modelo de K-Nearest Neighbors aplicado a **dados reais da PETR4** coletados via 
 - **Pipeline:** coleta de dados históricos → engenharia de features → padronização → treino/teste → classificação interativa
 - **Stack:** yfinance, Pandas, scikit-learn, ipywidgets
 
-📓 O notebook completo (com todos os gráficos e outputs) está disponível no Google Colab e será versionado aqui em breve via `File → Save a copy in GitHub`.
+📓 [`classificacao-petr4-knn.ipynb`](./classificacao-petr4-knn.ipynb) — notebook completo, com todos os gráficos e saídas.
